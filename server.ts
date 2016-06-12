@@ -11,7 +11,7 @@ app.use('/' , express.static('client'));
 //Add routes to app
 Router.bindRoutes(app);
 
-const server:http.Server = app.listen(port, "localhost", () => {
+const server:http.Server = app.listen(port, () => {
     const {address} = server.address();
     console.log('Listening on ' + address + ":" + port);
 });
