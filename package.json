@@ -1,0 +1,36 @@
+{
+  "name": "carnival-chatbot",
+  "version": "0.0.1",
+  "description": "A chatbot for McGill's winter Carnival",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node built/server.js",
+    "dev": "tsc -w | nodemon built/server.js",
+    "build": "tsc",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsFrank/carnival-chatbot.git"
+  },
+  "keywords": [
+    "bot",
+    "carnival",
+    "chat"
+  ],
+  "author": "Francis O'Brien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsFrank/carnival-chatbot/issues"
+  },
+  "homepage": "https://github.com/itsFrank/carnival-chatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.5"
+  }
+}

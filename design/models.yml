@@ -1,0 +1,38 @@
+event: name
+    venue: name
+    startTime: time
+    endTime: time
+    alternateNames: name[]
+
+venue: name
+    address: name
+    events: event[]
+    alternateNames: name[]
+
+Queries:
+    when:
+        phrasing:
+            - when is @E
+            - what time does @E
+            - @E time
+            - time @E
+    where:
+        phrasing:
+            - where is @E/@V
+            - how to get to @E/@V
+            - location @E/@V
+
+    - where
+    - when
+    - what
+
+
+
+ideas:
+    - msert
+    - drink deals
+    - team locations
+
+Samples:
+    - When is br?
+    - Where is br?

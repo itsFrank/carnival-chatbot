@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "name": "Cafe Campus",
+        "aliases": [
+            "cafe campus",
+            "cafecampus",
+            "cafe",
+            "cc"
+        ],
+        "event_ids": [
+            1
+        ],
+        "address": "57 Rue Prince Arthur E, Montréal, QC H2X 1B4, Canada"
+    },
+    {
+        "id": 1,
+        "name": "Telus Theatre",
+        "aliases": [
+            "telus theatre",
+            "telus",
+            "theatre telu"
+        ],
+        "event_ids": [
+            2
+        ],
+        "address": "1280 Rue Saint-Denis, Montréal, QC H2X, Canada"
+    }
+]

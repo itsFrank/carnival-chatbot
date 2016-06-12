@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "name": "Boat Races",
+        "aliases" : [
+            "boat races",
+            "boat race",
+            "boatraces",
+            "boatrace",
+            "br",
+            "race",
+            "races"
+        ],
+        "venue_id": 0,
+        "start_time": 2000,
+        "end_time": 300,
+        "start_date": 13,
+        "end_date": 14
+    },
+    {
+        "id": 1,
+        "name": "Power Hour",
+        "aliases" : [
+            "power hour",
+            "powerhour",
+            "ph"
+        ],
+        "venue_id": 1,
+        "start_time": 1930,
+        "end_time": 300,
+        "start_date": 14,
+        "end_date": 15
+    }
+]
