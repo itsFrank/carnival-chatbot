@@ -6,7 +6,7 @@ var port = 6969;
 app.use('/', express.static('client'));
 //Add routes to app
 routes_1.Router.bindRoutes(app);
-var server = app.listen(port, "localhost", function () {
+var server = app.listen(port, function () {
     var address = server.address().address;
     console.log('Listening on ' + address + ":" + port);
 });
